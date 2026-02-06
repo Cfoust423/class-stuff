@@ -87,7 +87,7 @@ main h2 {
 }
 main img{
     display: block;
-    width: 200px;
+    width: 30%;
     margin: 20px auto;
     border: 4px solid #D9B777 ;
     padding: 20px;
@@ -126,8 +126,7 @@ iframe {
     margin: 0 auto;
     border: 4px solid black;
     border-radius: 20px;
-    width: 30%;
-    height: 10%;
+    
     
 }
  
