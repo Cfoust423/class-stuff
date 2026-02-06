@@ -7,4 +7,4 @@
 </url>
 
 <url>
-    <li><a href="adv_css/contact.html" target="_blank">suicide awareness/job opportunity</a></li>
+    <li><a href="adv_css/contact.html" target="_blank">suicide awareness    </a></li>
