@@ -1,14 +1,11 @@
 /* global styles */
+
 body {
     background-color: lightgrey;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 img {
-    width: 75%;
-    height: auto;
+    width: 100%;
     display: block;
     margin: 0 auto;
     align-content: center;
@@ -42,7 +39,7 @@ nav {
     color: white;
     padding: 10px;
     text-align: center;
-     display: flex;
+    
 
 }
 nav ul {
@@ -54,12 +51,13 @@ nav ul {
     gap: 15px;
 }
 nav ul li a {
+    display: flex;
     color: white;
     text-decoration: none;
     display: block;
-    height: 40px;
-    line-height: 40px;
-    font-size: 25px;
+    height: auto;
+    line-height: 4%;
+    font-size: auto;
     margin-top: 10px;
 
 }
@@ -75,25 +73,7 @@ nav ul li a:hover {
     flex: 1 1 calc(33.333% - 10px);
 
 }
-/*  tablet styles */
-@media (min-width: 768px) {
-    nav li {
-        display: inline;
-    }
-    nav li a {
-        padding: 10px 20px;
-        background-color: #0a0000;
-        border-radius: 5px;
-    }
-    .col {
-        flex: 1 1 calc(50% - 10px);
-    }
-}
-@media (min-width: 480px) {
-    .col {
-        flex: 1 1 100%;
-    }
-}
+
 section img {
     width: 50%;
     height: auto;
@@ -103,7 +83,7 @@ main {
     margin: 10px;
 }
 
-main_content {
+.classmain_content {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -123,4 +103,63 @@ iframe {
     height: 400px;
     border: none;
     margin-top: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/*  tablet styles */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        padding: 10px 20px;
+        background-color: #0a0000;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .col {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+@media (min-width: 480px) {
+    .col {
+        flex: 1 1 100%;
+    }
+}
+.col img {
+    width: 65%;
+    height: auto;
+    border-radius: 2px;
+    border: 2px solid #0a0000;
+}
+/* desktop styles */
+
+@media (min-width: 1024px) {
+         #container {
+    
+        width: 65%;
+        margin: 20px auto;
+        background-color: grey;
+        padding: 20px;
+        border: 4px solid #0a0000;}
+
+    .gallery {
+        display: flex;
+    }
+    .col {
+        flex: 1 1 calc(15% - 20px);
+    
+    }
+}
+.col img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 2px solid #0a0000;
+    padding: 10px;
 }
