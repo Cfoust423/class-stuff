@@ -8,5 +8,7 @@
 
 <url>
     <li><a href="adv_css/index.html" target="_blank">suicide awareness copy   </a></li>
+    </url>
 <url>
     <li><a href="responsive_css/index.html" target="_blank">responsive_css <a></li> 
+    </url>
