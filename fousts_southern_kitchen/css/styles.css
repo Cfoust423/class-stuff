@@ -165,7 +165,7 @@ footer {
     .gallery {
         display: flex;
     }
-}
+
 
 .col img {
     width: 100%;
@@ -176,4 +176,5 @@ footer {
 }
 .multi-col {
     display: flex;
-}
+
+} }
